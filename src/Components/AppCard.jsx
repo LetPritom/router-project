@@ -6,9 +6,17 @@ import { Link, NavLink } from "react-router";
 
 const AppCard = ({ app }) => {
   //   const [apps,] = useAppHooks()
+  const {id} = app;
   return (
     <div>
-      <div
+
+        
+          <NavLink to={`/apps/${id}`}>
+            {/* <button className="flex justify-self-end px-3 py-2 rounded-md bg-white/30 backdrop-blur-md border border-gray-300 text-gray-800 font-medium shadow-md  hover:bg-white/40 hover:shadow-[0_10px_30px_rgba(99,46,227,0.4)] hover:border-gray-400 transition-all duration-300 cursor-pointer hover:text-black text-semibold">
+              Click To Install
+            </button> */}
+
+            <div
         className="card bg-white/70 backdrop-blur-md shadow-lg hover:scale-103 hover:shadow-[0_10px_30px_rgba(99,46,227,0.4)] hover:-translate-y-2 transition-all duration-500 rounded-2xl border border-white/40 p-3
       "
       >
@@ -36,13 +44,10 @@ const AppCard = ({ app }) => {
             </p>
           </div>
 
-          <NavLink to="/installation">
-            <button className="flex justify-self-end px-3 py-2 rounded-md bg-white/30 backdrop-blur-md border border-gray-300 text-gray-800 font-medium shadow-md  hover:bg-white/40 hover:shadow-[0_10px_30px_rgba(99,46,227,0.4)] hover:border-gray-400 transition-all duration-300 cursor-pointer hover:text-black text-semibold">
-              Click To Install
-            </button>
-          </NavLink>
         </div>
       </div>
+          </NavLink>
+      
     </div>
   );
 };
