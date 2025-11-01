@@ -42,7 +42,7 @@ const Navbar = () => {
             </ul>
           </div>
           <NavLink className="flex items-center text-xl ml-2 cursor-pointer font-semibold  text-transparent bg-clip-text bg-linear-to-r from-[#632EE3] to-[#9F62F2]" to="/">
-            <img className="h-10 w-10" src={logo} alt="" />
+            <img className="h-10 w-10" src={logo} alt="logo-image" />
             {/* <a className="text-xl ml-2 cursor-pointer font-semibold  text-transparent bg-clip-text bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
               HERO.OI
             </a> */}

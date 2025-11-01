@@ -13,7 +13,9 @@ const MainLayouts = () => {
         <HeroSection></HeroSection>
         <HeroInfo></HeroInfo>
       </div>
-      <Outlet></Outlet>
+      <div className="outlet flex-1 w-11/12 mx-auto space-y-5 my-8">
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   );

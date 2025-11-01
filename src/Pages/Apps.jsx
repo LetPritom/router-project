@@ -1,16 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import useAppHooks from "../Hooks/useAppHook";
 import AppCard from "../Components/AppCard";
 
 const Apps = () => {
-
-    const {apps,} = useAppHooks();
-    console.log(apps);
+  const { apps } = useAppHooks();
+  console.log(apps);
+  const [search , setSearch] = useState('');
+  const matchResult = search.trim().toLocaleLowerCase()
+  const foundApps = matchResult ? apps.filter((ap) => ap.title.toLocaleLowerCase().includes(matchResult)):apps ;
+  console.log(search);
   return (
-    <div className="w-11/12 mx-auto grid gird-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 space-y-5 my-8">
-        {
-            apps.map((app ,index) => <AppCard key={index} app={app}></AppCard>)
-        }
+    <div className="all-apps-container">
+      <div className=" my-5 feature flex flex-wrap justify-center items-center lg:justify-between gap-3 w-11/12 mx-auto">
+        <h1 className="text-3xl font-bold text-[#001931]">
+          All Apps{" "}
+          <span className="text-sm text-gray-400"> ({foundApps.length}) Apps Found
+          </span>{" "}
+        </h1>
+
+        <label className="input">
+          <input
+            className="w-full"
+            value={search}
+            onChange={(e)=> setSearch(e.target.value)}
+            type="search"
+            placeholder="search Products"
+          />
+        </label>
+      </div>
+      <div className="w-11/12 mx-auto grid gird-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 space-y-5 my-8">
+        {foundApps.map((app, index) => (
+          <AppCard key={index} app={app}></AppCard>
+        ))}
+      </div>
     </div>
   );
 };
