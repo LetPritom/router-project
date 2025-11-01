@@ -10,8 +10,8 @@ const HeroSection = () => {
                     <br />
                 Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             </div>
-            <div className="main-img object-cover ">
-                <div className="hero-image mt-12 pt-5 ">
+            <div className="main-img overflow-hidden ">
+                <div className="hero-image object-cover mt-12 pt-5 ">
                 <img className='h-80 ' src={hero} alt="" />
             </div>
             </div>
