@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co.com/gM994Xbd/plane.png",
+    "title": "Sky High Flight",
+    "companyName": "AeroSoft Inc.",
+    "description": "Experience the thrill of piloting a modern jet across stunning landscapes and skies.",
+    "size": 120,
+    "reviews": 245,
+    "ratingAvg": 4.5,
+    "downloads": "15k",
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 80 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co.com/VWVgtDvL/board-game.png",
+    "title": "BoardMaster",
+    "companyName": "GameHub Ltd.",
+    "description": "Play classic and modern board games online with friends and challenge players worldwide.",
+    "size": 85,
+    "reviews": 180,
+    "ratingAvg": 4.2,
+    "downloads": "12k",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 55 },
+      { "name": "5 star", "count": 70 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co.com/0pK3KSkD/joystick.png",
+    "title": "Arcade Hero",
+    "companyName": "Joystick Studios",
+    "description": "Dive into a retro arcade world filled with fast-paced action and epic boss battles.",
+    "size": 95,
+    "reviews": 210,
+    "ratingAvg": 4.6,
+    "downloads": "18k",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 70 },
+      { "name": "5 star", "count": 95 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co.com/yFrpsfNZ/demo-app-1.webp",
+    "title": "Task Manager Pro",
+    "companyName": "ProductiveApps",
+    "description": "Organize your tasks and projects efficiently with a sleek and intuitive interface.",
+    "size": 60,
+    "reviews": 150,
+    "ratingAvg": 4.3,
+    "downloads": "10k",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 64 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co.com/P813wyM/demo-app-2.webp",
+    "title": "Budget Tracker",
+    "companyName": "FinWise",
+    "description": "Track your income, expenses, and savings effortlessly to manage your finances better.",
+    "size": 45,
+    "reviews": 100,
+    "ratingAvg": 4.1,
+    "downloads": "8.5k",
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 40 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/fVQ3zKf6/demo-app-3.webp",
+    "title": "Workout Buddy",
+    "companyName": "HealthTech Co.",
+    "description": "Your personal fitness companion with guided workouts, nutrition tips, and tracking features.",
+    "size": 70,
+    "reviews": 220,
+    "ratingAvg": 4.7,
+    "downloads": "22k",
+    "ratings": [
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 65 },
+      { "name": "5 star", "count": 110 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co.com/G3rKjDwv/demo-app-4.webp",
+    "title": "Photo Editor Plus",
+    "companyName": "SnapSoft",
+    "description": "Edit photos like a pro with filters, effects, and powerful tools for creativity.",
+    "size": 55,
+    "reviews": 130,
+    "ratingAvg": 4.4,
+    "downloads": "9k",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 53 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co.com/VYhXZCtG/demo-app-5.webp",
+    "title": "Weather Now",
+    "companyName": "ClimateSoft",
+    "description": "Get real-time weather updates, forecasts, and alerts for your city or travel destinations.",
+    "size": 40,
+    "reviews": 160,
+    "ratingAvg": 4.3,
+    "downloads": "11k",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 45 },
+      { "name": "5 star", "count": 66 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/8gzjMxR5/application.png",
+    "title": "Learning Hub",
+    "companyName": "EduSoft",
+    "description": "Access thousands of courses, tutorials, and study materials to enhance your skills.",
+    "size": 100,
+    "reviews": 200,
+    "ratingAvg": 4.5,
+    "downloads": "15k",
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 82 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/4ZCSHJXJ/chat.png",
+    "title": "Chat Connect",
+    "companyName": "TalkTech",
+    "description": "Instant messaging and video calls with friends, family, and professional contacts.",
+    "size": 60,
+    "reviews": 190,
+    "ratingAvg": 4.4,
+    "downloads": "14k",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 55 },
+      { "name": "5 star", "count": 80 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/0jPjCbJv/apps.png",
+    "title": "App Explorer",
+    "companyName": "TechWorld",
+    "description": "Discover and manage apps, explore new tools, and optimize your device performance.",
+    "size": 50,
+    "reviews": 110,
+    "ratingAvg": 4.2,
+    "downloads": "8k",
+    "ratings": [
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 35 },
+      { "name": "5 star", "count": 40 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/1ftLjdH3/education.png",
+    "title": "Study Planner",
+    "companyName": "EduPlus",
+    "description": "Plan your studies, track progress, and improve learning efficiency with smart tools.",
+    "size": 65,
+    "reviews": 140,
+    "ratingAvg": 4.5,
+    "downloads": "9.5k",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 60 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/FL9SdZCt/game.png",
+    "title": "Puzzle Quest",
+    "companyName": "MindGames",
+    "description": "Challenge your mind with engaging puzzles and logic games suitable for all ages.",
+    "size": 80,
+    "reviews": 175,
+    "ratingAvg": 4.6,
+    "downloads": "12.5k",
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 75 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/CpBB0WND/placeholder.png",
+    "title": "Note Keeper",
+    "companyName": "WriteSoft",
+    "description": "Take notes, create lists, and organize ideas quickly with a clean interface.",
+    "size": 35,
+    "reviews": 95,
+    "ratingAvg": 4.1,
+    "downloads": "7k",
+    "ratings": [
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 37 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/JWv1Cs8X/paypal.png",
+    "title": "PaySecure",
+    "companyName": "FinTech Solutions",
+    "description": "Send and receive payments securely, manage transactions, and track expenses easily.",
+    "size": 75,
+    "reviews": 200,
+    "ratingAvg": 4.5,
+    "downloads": "16k",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 90 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/VcscQDTW/uber.png",
+    "title": "RideNow",
+    "companyName": "MoveFast Inc.",
+    "description": "Book rides instantly, track drivers, and enjoy a safe and convenient travel experience.",
+    "size": 90,
+    "reviews": 180,
+    "ratingAvg": 4.3,
+    "downloads": "14k",
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 81 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/bS5SzB1/user-guide.png",
+    "title": "Help Center",
+    "companyName": "GuideSoft",
+    "description": "Access guides, tutorials, and FAQs to get the most out of your apps and devices.",
+    "size": 55,
+    "reviews": 120,
+    "ratingAvg": 4.2,
+    "downloads": "9k",
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 35 },
+      { "name": "5 star", "count": 45 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/7dFQWVT6/decrease.png",
+    "title": "Budget Saver",
+    "companyName": "MoneyMind",
+    "description": "Save money effortlessly with tracking tools, alerts, and smart budgeting techniques.",
+    "size": 50,
+    "reviews": 140,
+    "ratingAvg": 4.4,
+    "downloads": "10k",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 7 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 45 },
+      { "name": "5 star", "count": 53 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/39Dr7wyq/melvin-lauber-PNRRJCN2-Lw-E-unsplash.jpg",
+    "title": "Nature Explorer",
+    "companyName": "Adventure Labs",
+    "description": "Explore breathtaking landscapes, trails, and wildlife with interactive guides and maps.",
+    "size": 110,
+    "reviews": 160,
+    "ratingAvg": 4.6,
+    "downloads": "12.5k",
+    "ratings": [
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 6 },
+      { "name": "3 star", "count": 35 },
+      { "name": "4 star", "count": 50 },
+      { "name": "5 star", "count": 65 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/11fFTHq/alexander-shatov-9-YDZBM03-IGQ-unsplash.jpg",
+    "title": "City Lights",
+    "companyName": "UrbanScape",
+    "description": "Discover the most stunning cityscapes and urban photography tips in a single app.",
+    "size": 105,
+    "reviews": 145,
+    "ratingAvg": 4.5,
+    "downloads": "11.5k",
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 5 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 65 }
+    ]
+  }
+]
