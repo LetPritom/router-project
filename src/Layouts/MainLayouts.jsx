@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import HeroSection from "../Components/HeroSection";
 import HeroInfo from "../Components/HeroInfo";
+import { ToastContainer } from "react-toastify";
 
 const MainLayouts = () => {
   return (
@@ -17,6 +18,8 @@ const MainLayouts = () => {
         <Outlet></Outlet>
       </div>
       <Footer></Footer>
+
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
