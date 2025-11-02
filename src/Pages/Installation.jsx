@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Sort from "../Components/Sort";
+import { toast } from "react-toastify";
+// import useAppHooks from "../Hooks/useAppHook";
 
 const Installation = () => {
   const [installation, setInstallation] = useState([]);
@@ -9,15 +11,34 @@ const Installation = () => {
     if (savedList) setInstallation(savedList);
   }, []);
 
-    const sortItem = () => {
+//   const {id} = useAppHooks();
+
+    const sortItem = (
+        () => {
         if(sortOrder === 'download-asc') {
-            return [...Installation].sort((a, b) => a.downloads-b.downloads)
+            return [...installation].sort((a, b) => a.downloads-b.downloads)
         } else if ( sortOrder === "download-desc" ) {
             return [...installation].sort((a,b) => b.downloads-a.downloads)
         } else {
            return installation
-        }
+        } 
     }
+    ) ();
+
+
+
+
+    const handleRemovedInstallation = (deleteID) => {
+        toast.success('Your App Is Uninstalled')
+        const existingList = JSON.parse(localStorage.getItem("installation"))
+        const deleteData = existingList.filter((fl) => fl.id !== deleteID) ;
+        setInstallation(deleteData);
+        localStorage.setItem("installation", JSON.stringify(deleteData));
+    }
+
+
+
+
 
 
 
@@ -44,7 +65,7 @@ const Installation = () => {
       </div>
 
       <div className="space-y-6 ">
-        {installation.map((p ,index) =>  <Sort key={index} p={p}></Sort>)}
+        {sortItem.map((p ,index) =>  <Sort handleRemovedInstallation={handleRemovedInstallation} key={index} p={p}></Sort>)}
       </div>
     </div>
   );

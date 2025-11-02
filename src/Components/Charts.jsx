@@ -62,7 +62,7 @@ import {
 const Charts = ({ ratings }) => {
   console.log(ratings);
   return (
-    <div className="my-10 container mx-auto px-3 h-[400px]">
+    <div className="my-5 container  h-[380px]">
       <h1 className="text-2xl font-bold mb-5">Ratings</h1>
       <ResponsiveContainer width="100%" height="100%">
         <ComposedChart
