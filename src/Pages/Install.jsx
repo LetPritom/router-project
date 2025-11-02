@@ -5,20 +5,15 @@ import reviewers from "../assets/icon-review.png";
 import { useParams } from "react-router";
 import useAppHooks from "../Hooks/useAppHook";
 import { toast } from "react-toastify";
-import {
-  BarChart,
-  Line,
-  LineChart,
-  ResponsiveContainer,
-  XAxis,
-  YAxis,
-} from "recharts";
 import Charts from "../Components/Charts";
+import NotFound from "./NotFound";
 
 const Install = () => {
   const { id } = useParams();
+
   console.log(id);
   const { apps, loading } = useAppHooks();
+  
   const appFind = apps.find((app) => String(app.id) === id);
   // console.log(appFind);
   // state all time return er age declear korte hoi
@@ -122,30 +117,13 @@ const Install = () => {
             >
               <span className="absolute inset-0 bg-linear-to-r from-[#ffffff33] via-[#ffffff66] to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out"></span>
               <span className="relative z-10"></span>
-              {install ? "Installed" : "Install Now"} ({size})
+              {install ? "Installed" : `Install Now ${size}(MB)`}
             </button>
           </div>
         </div>
       </div>
-      {/* <div className="bg-base-100 w-11/12 mx-auto my-10 py-5">
-        <h1 className="text-2xl font-bold">Info For this App</h1>
-        <div className="charts h-auto">
-          <ResponsiveContainer width="100%" height={500}>
-            <LineChart data={ratings}>
-              <XAxis dataKey="name" />
-              <YAxis />
-              <Line
-                type="monotone"
-                dataKey="count"
-                stroke="#8884d8"
-                strokeWidth={2}
-              />
-            </LineChart>
-          </ResponsiveContainer>
-        </div>
-      </div> */}
 
-      <Charts ratings = {ratings}></Charts>
+     <Charts ratings = {ratings}></Charts>
     </div>
 
     

@@ -9,12 +9,10 @@ import { ToastContainer } from "react-toastify";
 const MainLayouts = () => {
   return (
     <div>
-      <div className="hero-part">
+      <div className="hero-part  ">
         <Navbar></Navbar>
-        <HeroSection></HeroSection>
-        <HeroInfo></HeroInfo>
       </div>
-      <div className="outlet flex-1 w-11/12 mx-auto space-y-5 my-8">
+      <div className>
         <Outlet></Outlet>
       </div>
       <Footer></Footer>

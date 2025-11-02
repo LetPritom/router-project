@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import Install from "../Pages/Install";
 import Installation from "../Pages/Installation";
+import Error from "../Pages/Error";
 
 
 
@@ -26,6 +27,7 @@ const router = createBrowserRouter ([
             {path:'/Installation',
             element: <Installation></Installation>
         },
+        
         ]
     },
 ]);

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Sort = ({p ,handleRemovedInstallation}) => {
     return (
-        <div>
+        <div className='w-11/12 mx-auto my-5 p-5'>
             <div className="dv flex justify-center items-center card bg-white/70 backdrop-blur-md shadow-lg hover:scale-103 hover:shadow-[0_10px_30px_rgba(99,46,227,0.4)] hover:-translate-y-1 transition-all duration-500 rounded-2xl border border-white/40 p-3">
             <div className=" w-11/12 mx-auto flex flex-wrap justify-between items-center gap-5">
               <div className="flex gap-3">
