@@ -44,7 +44,7 @@ const Install = () => {
   const handleAddTOInstallation = () => {
     const existingList = JSON.parse(localStorage.getItem("installation")) || [];
 
-    // 🔹 যদি আগেই install করা থাকে
+    // jodi age install kora thake taile 
 
     const alreadyInstalled = existingList.some((ap) => ap.id === appFind.id);
     if (alreadyInstalled) {
@@ -53,7 +53,7 @@ const Install = () => {
       return;
     }
 
-    // 🔹 নতুন install
+    //  notun kore install kora
 
     toast.success("Your Application Is Installing");
     const updatedList = [...existingList, appFind];
@@ -124,6 +124,14 @@ const Install = () => {
       </div>
 
      <Charts ratings = {ratings}></Charts>
+
+     <div className="description text-left my-5 p-4">
+    <div className="title">
+      <h1 className="text-3xl  mt-2 py-2 font-bold text-[#001931]">Description</h1>
+    </div>
+      <p className="text-sm text-[#627382] mt-3 py-2 mb-10">{description}</p>
+      <p className="text-sm text-[#627382] mt-3 py-2 mb-10">This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work, minimizing distractions and maximizing concentration. Users can create custom work and break intervals, track how many sessions they complete each day, and review detailed statistics about their focus habits over time. The design is minimal and calming, reducing cognitive load so you can focus entirely on the task at hand. Notifications gently let you know when to pause and when to resume, helping you maintain a healthy rhythm between work and rest</p>
+     </div>
     </div>
 
     

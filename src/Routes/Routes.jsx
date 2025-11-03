@@ -5,6 +5,7 @@ import Apps from "../Pages/Apps";
 import Install from "../Pages/Install";
 import Installation from "../Pages/Installation";
 import Error from "../Pages/Error";
+import SkeletonLoader from "../Components/SkeletonLoader";
 
 
 
@@ -13,19 +14,23 @@ const router = createBrowserRouter ([
         path:'/',
         element:<MainLayouts></MainLayouts>,
         errorElement:<Error></Error>,
-        hydrateFallbackElement:<p>Loading...</p>,
+        hydrateFallbackElement:<SkeletonLoader></SkeletonLoader>,
         children: [
             {index: true,
-            element: <Home></Home>
+            element: <Home></Home>,
+            loader:() => fetch('/appData.json')
         },
             {path:'/apps',
-            element: <Apps></Apps>
+            element: <Apps></Apps>,
+            loader:() => fetch('/appData.json')
         },
             {path:'/apps/:id',
-            element: <Install></Install>
+            element: <Install></Install>,
+            loader:() => fetch('/appData.json')
         },
             {path:'/Installation',
-            element: <Installation></Installation>
+            element: <Installation></Installation>,
+            loader:() => fetch('/appData.json')
         },
         
         ]

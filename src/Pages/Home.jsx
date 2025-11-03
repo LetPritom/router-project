@@ -1,7 +1,7 @@
 import React from "react";
 import useAppHooks from "../Hooks/useAppHook";
 import AppCard from "../Components/AppCard";
-import { NavLink } from "react-router";
+import { NavLink, useLoaderData } from "react-router";
 import HeroSection from "../Components/HeroSection";
 import HeroInfo from "../Components/HeroInfo";
 import Loader from "../Components/Loader";
@@ -10,6 +10,8 @@ import SkeletonLoader from "../Components/SkeletonLoader";
 const Home = () => {
   const { apps, loading } = useAppHooks();
   const eightData = apps.slice(0, 8);
+  // eslint-disable-next-line no-unused-vars
+  const loadingData = useLoaderData()
 
   return (
     <div>
