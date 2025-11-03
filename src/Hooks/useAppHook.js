@@ -10,7 +10,7 @@ const useAppHooks =() => {
 
     useEffect(()=> {
         setLoading(true);
-        axios('../appData.json')
+        axios('/appData.json')
         .then(data => setApps(data.data))
         .catch(err => setError(err))
         .finally(() => setLoading(false))
