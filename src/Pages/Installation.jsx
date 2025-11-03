@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Sort from "../Components/Sort";
 import { toast } from "react-toastify";
+import { useLoaderData } from "react-router";
 // import useAppHooks from "../Hooks/useAppHook";
 
 const Installation = () => {
+  // eslint-disable-next-line no-unused-vars
+  const loadingData = useLoaderData()
   const [installation, setInstallation] = useState([]);
   const [sortOrder, setSortOrder] = useState("none");
   useEffect(() => {

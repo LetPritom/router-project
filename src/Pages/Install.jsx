@@ -2,16 +2,17 @@ import React, { useState } from "react";
 import downImage from "../assets/icon-downloads.png";
 import ratingStar from "../assets/icon-ratings.png";
 import reviewers from "../assets/icon-review.png";
-import { useParams } from "react-router";
+import { useLoaderData, useParams } from "react-router";
 import useAppHooks from "../Hooks/useAppHook";
 import { toast } from "react-toastify";
 import Charts from "../Components/Charts";
 import NotFound from "./NotFound";
 
 const Install = () => {
-  const { id } = useParams();
 
-  console.log(id);
+  // eslint-disable-next-line no-unused-vars
+  const loadingData = useLoaderData()
+  const { id } = useParams();
   const { apps, loading } = useAppHooks();
   
   const appFind = apps.find((app) => String(app.id) === id);

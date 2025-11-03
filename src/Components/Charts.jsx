@@ -60,7 +60,7 @@ import {
 
 // #endregion
 const Charts = ({ ratings }) => {
-  console.log(ratings);
+  // console.log(ratings);
   return (
     <div className="my-10 container  h-[400px]">
       <h1 className="text-2xl font-bold mb-5">Ratings</h1>
