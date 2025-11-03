@@ -14,11 +14,11 @@ const MainLayouts = () => {
     return <SkeletonLoader></SkeletonLoader>;
   }
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <div className="hero-part  ">
         <Navbar></Navbar>
       </div>
-      <div className>
+      <div className='flex-1'>
         <Outlet></Outlet>
       </div>
       <Footer></Footer>

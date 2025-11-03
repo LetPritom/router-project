@@ -50,7 +50,7 @@ const Apps = () => {
       {loading ? (
         <SkeletonLoader />
       ) : foundApps.length ? (
-        <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-8">
+        <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-8">
           {foundApps.map((app, index) => (
             <AppCard key={index} app={app} />
           ))}
